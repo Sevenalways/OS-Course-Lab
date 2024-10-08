@@ -7,7 +7,7 @@ endif
 
 SCRIPTS := $(LABROOT)/Scripts
 ifeq (,$(wildcard $(SCRIPTS)/env_generated.mk))
-	$(error Please run $(SCRIPTS)/gendeps.sh to create the environment first!)
+ $(error Please run $(SCRIPTS)/gendeps.sh to create the environment first!)
 endif
 
 ifeq (,$(LAB))
